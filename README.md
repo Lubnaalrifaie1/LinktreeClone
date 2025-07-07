@@ -32,7 +32,7 @@ LinkTree is a popular platform that allows users to create a personalized landin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fabiconcept/linktree.git
+   git clone https://github.com/Lubnaalrifaie1/linktree.git
    ```
 
 2. Install the dependencies:

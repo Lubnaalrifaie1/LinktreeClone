@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Link Tree',
-  description: 'This is a Link tree Clone Web App Developed by Fabiconcept.',
+  description: 'This is a Link tree Clone Web App Developed by Lubnaalrifaie1.',
 }
 
 export default function RootLayout({ children }) {

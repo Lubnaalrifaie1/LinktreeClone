@@ -6,7 +6,7 @@ export const SupportGroups = [
         cardMessage: "Take a look at my projects and the things I've added to GitHub. You'll find a mix of different stuff I've worked on, and I'm excited to share them with you!",
         title: "Discover My GitHub Projects",
         message: "I invite you to explore my GitHub profile, where you can find an array of exciting projects and contributions. Feel free to take a look, and if you find something you like, don't hesitate to show your support by leaving a star ⭐",
-        linkTo: "https://github.com/fabiconcept",
+        linkTo: "https://github.com/Lubnaalrifaie1",
     },
     {
         type: 1,
@@ -15,7 +15,7 @@ export const SupportGroups = [
         cardMessage: "Display a support banner to encourage your visitors to #FreePalestine, donate and discover resources, and support the right for people everywhere to live in peace.",
         title: "War is not the answer.",
         message: "I'm driving awareness, donations, and support to #FreePalestine, and the right for people everywhere to live in peace. Will you join me?",
-        linkTo: "https://mylinks.fabiconcept.online/freepalestine"
+        linkTo: "https://mylinks.Lubnaalrifaie1.online/freepalestine"
     },
     {
         type: 2,

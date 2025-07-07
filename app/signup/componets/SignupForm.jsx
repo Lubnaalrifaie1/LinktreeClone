@@ -209,7 +209,7 @@ export default function SignUpForm() {
                         <label className="opacity-40">mylinktree/</label>
                         <input
                             type="text"
-                            placeholder="fabiconcept"
+                            placeholder="Lubnaalrifaie1"
                             className="outline-none border-none bg-transparent ml-1 py-3 flex-1 text-sm sm:text-base"
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}

@@ -3,31 +3,31 @@ import { fireApp } from "@/important/firebase";
 
 const staticRoutes= [
     {
-        url: 'https://mylinks.fabiconcept.online',
+        url: 'https://mylinks.lubnaalrifaie1.online',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 1,
     },
     {
-        url: 'https://mylinks.fabiconcept.online/signup',
+        url: 'https://mylinks.lubnaalrifaie1.online/signup',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 1,
     },
     {
-        url: 'https://mylinks.fabiconcept.online/login',
+        url: 'https://mylinks.lubnaalrifaie1.online/login',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 1,
     },
     {
-        url: 'https://mylinks.fabiconcept.online/freepalestine',
+        url: 'https://mylinks.lubnaalrifaie1.online/freepalestine',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 1,
     },
     {
-        url: 'https://mylinks.fabiconcept.online/fabiconcept',
+        url: 'https://mylinks.lubnaalrifaie1.online/lubnaalrifaie1',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 1,
@@ -59,14 +59,14 @@ export default async function sitemap() {
         const users = await fetchUsernames();
 
         const userRoutes = users.map((user) => ({
-            url: `https://mylinks.fabiconcept.online/${user.username}`,
+            url: `https://mylinks.lubnaalrifaie1.online/${user.username}`,
             lastModified: new Date(user.lastModified || new Date()),
             changeFrequency: 'daily',
             priority: 0.8,
         }));
 
         return [...staticRoutes, ...userRoutes, {
-            url: `https://mylinks.fabiconcept.online/${users.length}`,
+            url: `https://mylinks.lubnaalrifaie1.online/${users.length}`,
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.8,

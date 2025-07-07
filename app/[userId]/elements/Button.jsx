@@ -178,7 +178,7 @@ export default function Button({ url, content, userId }) {
                 case 'pinterest':
                     setAccentColor(["#BB0F23", "#F8F9FC"]);
                     break;
-                case 'fabiconcept':
+                case 'Lubnaalrifaie1':
                     setAccentColor(["#fea02f", "#de6600"]);
                     break;
 

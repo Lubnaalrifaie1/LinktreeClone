@@ -169,7 +169,7 @@ export default function Form() {
                 <div className={`flex items-stretch gap-2 relative filter ${hasError === 1 ? "dropshadow-bad" : hasError === 2 ? "dropshadow-good" : "dropshadow"}`} id="input">
                     <div className={`flex items-center rounded-l-xl bg-white px-6 text-sm md:text-2xl sm:text-md ${hasError === 1 ? "border-red-500 border-[2px]" : hasError === 2 ? "border-green-500 border-[2px]" : ""}`}>
                         <label className="opacity-40 font-semibold">mylinktr.ee/:</label>
-                        <input type="text" className="bg-transparent peer py-5 px-2 outline-none border-none md:w-auto w-[8rem]" placeholder="fabiconcept" onChange={(e)=>setUsername(e.target.value)} required />
+                        <input type="text" className="bg-transparent peer py-5 px-2 outline-none border-none md:w-auto w-[8rem]" placeholder="Lubnaalrifaie1" onChange={(e)=>setUsername(e.target.value)} required />
                     </div>
                     <button type="submit" className={`px-4 grid place-items-center ${canProceed ? "bg-themeGreen text-white": "bg-slate-400 text-white"} rounded-r-xl font-semibold cursor-pointer hover:scale-110 active:scale-95 active:opacity-80 uppercase text-sm md:text-lg sm:text-md`}>
                         {!isLoading && <span className="nopointer">
